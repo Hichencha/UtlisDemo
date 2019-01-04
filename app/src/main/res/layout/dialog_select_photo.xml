@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/dialog_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/dialog_linear"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_photo_dialog_bg"
+                android:orientation="vertical">
+
+
+            <Button
+                    android:id="@+id/take_camera_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:text="拍照"
+                    android:textColor="#333333"
+                    android:textSize="14dp" />
+
+            <View style="@style/HorizontalLineStyle" />
+
+            <Button
+                    android:id="@+id/take_poto_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:text="从手机相册选择"
+                    android:textColor="#333333"
+                    android:textSize="14dp" />
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/photo_cancel_btn_style"
+                android:text="取消"
+                android:textColor="#888888"
+                android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+    <View
+            android:id="@+id/close_view"
+            android:layout_above="@+id/dialog_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

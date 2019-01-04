@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:id="@+id/seekLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:maxHeight="5dp"
+                android:minHeight="5dp"
+                android:focusable="false"
+                android:paddingBottom="3dp"
+                android:paddingLeft="12dp"
+                android:max="100"
+                android:paddingRight="12dp"
+                android:paddingTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/progressbar_bg"
+                android:background="@null"
+                android:thumb="@drawable/shape_circle"/>
+
+
+        <TextView
+                android:id="@+id/seek_text"
+                android:layout_width="40dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="0%"
+                android:background="@drawable/shape_circle"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:textSize="13sp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="2dp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

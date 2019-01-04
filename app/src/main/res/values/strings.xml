@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UtlisDemo</string>
+    <string name="basic_help">帮助</string>
+    <string name="basic_string_qr_code_text">当前应用缺少相机权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="basic_string_help_text">当前应用缺少定位权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="basic_string_audio_text">当前应用缺少录音权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="basic_string_addres_text">当前应用缺少通讯录权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="basic_quit">退出</string>
+    <string name="basic_settings">设置</string>
+    <string name="trading_oder_tit">特别提示：卖家及/或买家受人在竞价成功后，仔细核对本确认单内容，一经确认即视为本确认单内容与竞价交易内容相符，各方均遵照执行。</string>
+    <string name="basic_string_update_text">赋予此应用读写文件权限用于版本更新。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="basic_string_help_img_text">保存图片需要读取sd卡的权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+</resources>

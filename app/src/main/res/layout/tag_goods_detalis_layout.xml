@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/tv_tag"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:background="@drawable/red_btn_style"
+          android:gravity="center_vertical"
+          android:paddingLeft="3dp"
+          android:paddingTop="1dp"
+          android:paddingRight="3dp"
+          android:paddingBottom="1dp"
+          android:text=""
+          android:textColor="#ffffff"
+          android:textSize="10sp" />
+

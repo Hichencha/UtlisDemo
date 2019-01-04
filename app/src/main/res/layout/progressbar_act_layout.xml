@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:id="@+id/seekLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center">
+
+        <ProgressBar
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_centerVertical="true"
+                android:focusable="false"
+                android:max="100"
+                android:progressDrawable="@drawable/progressbar_bg"
+                android:background="@null"/>
+
+
+        <TextView
+                android:id="@+id/seek_text"
+                android:layout_width="40dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text=""
+                android:background="@drawable/shape_circle"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
