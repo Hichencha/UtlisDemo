@@ -30,6 +30,8 @@
         <activity android:name=".img.ImageFlexboxActivity"/>
         <activity android:name=".selectimg.ImageSelectActivity"/>
         <activity android:name=".tagview.TagViewActivity"/>
+        <activity android:name=".vr.VrActivity"/>
+        <activity android:name=".vr.VrWebViewActivity"/>
 
         <provider
                 android:name="android.support.v4.content.FileProvider"

@@ -10,6 +10,8 @@ import com.chencha.utlisdemo.seekbar.ProgressBarActviity
 import com.chencha.utlisdemo.seekbar.SeekbarActivity
 import com.chencha.utlisdemo.selectimg.ImageSelectActivity
 import com.chencha.utlisdemo.tagview.TagViewActivity
+import com.chencha.utlisdemo.vr.VrActivity
+import com.chencha.utlisdemo.vr.VrWebViewActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -25,7 +27,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         img.setOnClickListener(this)
         imgselect.setOnClickListener(this)
         tag.setOnClickListener(this)
-
+        vr.setOnClickListener(this)
+        vr_webview.setOnClickListener(this)
         imgInfo.add("http://oss.rhrsh.com/manager/test/1.png")
         imgInfo.add("http://oss.rhrsh.com/manager/test/2.png")
         imgInfo.add("http://oss.rhrsh.com/manager/test/3.png")
@@ -62,6 +65,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val intent = Intent(this, TagViewActivity::class.java)
                 startActivity(intent)
             }
+            R.id.vr -> {
+                val intent = Intent(this, VrActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.vr_webview -> {
+                val intent = Intent(this, VrWebViewActivity::class.java)
+                startActivity(intent)
+            }
+
         }
     }
 
