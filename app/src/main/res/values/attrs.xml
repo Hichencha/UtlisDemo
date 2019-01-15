@@ -24,4 +24,21 @@
     <declare-styleable name="Themes">
         <attr name="numberProgressBarStyle" format="reference"/>
     </declare-styleable>
+
+
+    <declare-styleable name="TimeStyle">
+        <attr name="dayTextSize" format="dimension" />
+        <attr name="hourTextSize" format="dimension" />
+        <attr name="minTextSize" format="dimension" />
+        <attr name="secTextSize" format="dimension" />
+        <attr name="dayTextColor" format="color" />
+        <attr name="hourTextColor" format="color" />
+        <attr name="minTextColor" format="color" />
+        <attr name="secTextColor" format="color" />
+        <attr name="dayTextBackground" format="reference|color" />
+        <attr name="hourTextBackground" format="reference|color" />
+        <attr name="minTextBackground" format="reference|color" />
+        <attr name="secTextBackground" format="reference|color" />
+    </declare-styleable>
+
 </resources>

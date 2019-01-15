@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="3dp"/>
+    <!-- 实心 即填充颜色 -->
+    <solid android:color="#282828"/>
+    <!-- 按钮文字和边缘距离(内边距) -->
+    <padding
+            android:bottom="2dp"
+            android:left="3dp"
+            android:right="3dp"
+            android:top="2dp"/>
+
+</shape>

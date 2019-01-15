@@ -75,4 +75,24 @@
               android:textColor="#ffffff"
               android:gravity="center"/>
 
+
+    <TextView android:id="@+id/time"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginTop="5dp"
+              android:background="@color/colorAccent"
+              android:text="time"
+              android:textColor="#ffffff"
+              android:gravity="center"/>
+
+
+    <TextView android:id="@+id/outticket"
+              android:layout_width="match_parent"
+              android:layout_height="50dp"
+              android:layout_marginTop="5dp"
+              android:background="@color/colorAccent"
+              android:text="小票打印"
+              android:textColor="#ffffff"
+              android:gravity="center"/>
+
 </LinearLayout>

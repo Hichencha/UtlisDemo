@@ -32,6 +32,8 @@
         <activity android:name=".tagview.TagViewActivity"/>
         <activity android:name=".vr.VrActivity"/>
         <activity android:name=".vr.VrWebViewActivity"/>
+        <activity android:name=".text.CountTimeActivity"/>
+        <activity android:name=".receipt.PrintReceiptActivity"/>
 
         <provider
                 android:name="android.support.v4.content.FileProvider"

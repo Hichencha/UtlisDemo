@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:customs="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <com.chencha.utlisdemo.text.TimeView
+            android:id="@+id/clockView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            customs:dayTextBackground="@drawable/time_bg"
+            customs:dayTextColor="#ffffff"
+            customs:hourTextBackground="@drawable/time_bg"
+            customs:hourTextColor="#ffffff"
+            customs:minTextBackground="@drawable/time_bg"
+            customs:minTextColor="#ffffff"
+            customs:secTextBackground="@drawable/time_bg"
+            customs:secTextColor="#ffffff"
+            >
+    </com.chencha.utlisdemo.text.TimeView>
+
+    <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:visibility="gone"
+            android:text="倒计时"/>
+
+</LinearLayout>

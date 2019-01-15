@@ -6,10 +6,12 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.chencha.utlisdemo.img.ImageFlexboxActivity
+import com.chencha.utlisdemo.receipt.PrintReceiptActivity
 import com.chencha.utlisdemo.seekbar.ProgressBarActviity
 import com.chencha.utlisdemo.seekbar.SeekbarActivity
 import com.chencha.utlisdemo.selectimg.ImageSelectActivity
 import com.chencha.utlisdemo.tagview.TagViewActivity
+import com.chencha.utlisdemo.text.CountTimeActivity
 import com.chencha.utlisdemo.vr.VrActivity
 import com.chencha.utlisdemo.vr.VrWebViewActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -29,6 +31,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         tag.setOnClickListener(this)
         vr.setOnClickListener(this)
         vr_webview.setOnClickListener(this)
+        time.setOnClickListener(this)
+        outticket.setOnClickListener(this)
         imgInfo.add("http://oss.rhrsh.com/manager/test/1.png")
         imgInfo.add("http://oss.rhrsh.com/manager/test/2.png")
         imgInfo.add("http://oss.rhrsh.com/manager/test/3.png")
@@ -71,6 +75,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.vr_webview -> {
                 val intent = Intent(this, VrWebViewActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.time -> {
+                val intent = Intent(this, CountTimeActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.outticket -> {
+                val intent = Intent(this, PrintReceiptActivity::class.java)
                 startActivity(intent)
             }
 

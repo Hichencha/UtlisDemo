@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="dayTextView" type="id" />
+    <item name="hourTextView" type="id" />
+    <item name="minTextView" type="id" />
+    <item name="secTextView" type="id" />
+</resources>
