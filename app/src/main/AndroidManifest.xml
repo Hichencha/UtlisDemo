@@ -34,6 +34,10 @@
         <activity android:name=".vr.VrWebViewActivity"/>
         <activity android:name=".text.CountTimeActivity"/>
         <activity android:name=".receipt.PrintReceiptActivity"/>
+        <activity android:name=".hencode.DrawColorViewKt"/>
+        <activity android:name=".hencode.DrawCircleView"/>
+        <activity android:name=".hencode.DrawRectView"/>
+        <activity android:name=".hencode.DrawPointView"/>
 
         <provider
                 android:name="android.support.v4.content.FileProvider"

@@ -1,98 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.v4.widget.NestedScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:background="#ffffff"
         tools:context=".MainActivity">
 
-    <TextView
-            android:id="@+id/progressbar"
-            android:layout_width="match_parent"
-            android:gravity="center"
-            android:background="@color/colorAccent"
-            android:layout_height="50dp"
-            android:textColor="#ffffff"
-            android:text="progressbar进度条"/>
 
-    <TextView
-            android:id="@+id/seekbar"
-            android:layout_width="match_parent"
-            android:gravity="center"
-            android:layout_marginTop="5dp"
-            android:background="@color/colorAccent"
-            android:layout_height="50dp"
-            android:textColor="#ffffff"
-            android:text="seekbar进度条"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
 
-    <TextView android:id="@+id/img"
-              android:layout_width="match_parent"
-              android:layout_height="50dp"
-              android:layout_marginTop="5dp"
-              android:background="@color/colorAccent"
-              android:text="ImageActivity"
-              android:textColor="#ffffff"
-              android:gravity="center"/>
+        <TextView
+                android:id="@+id/progressbar"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:background="@color/colorAccent"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:text="progressbar进度条"/>
 
+        <TextView
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorAccent"
+                android:layout_height="50dp"
+                android:textColor="#ffffff"
+                android:text="seekbar进度条"/>
 
-    <TextView android:id="@+id/imgselect"
-              android:layout_width="match_parent"
-              android:layout_height="50dp"
-              android:layout_marginTop="5dp"
-              android:background="@color/colorAccent"
-              android:text="图片选择"
-              android:textColor="#ffffff"
-              android:gravity="center"/>
+        <TextView android:id="@+id/img"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="ImageActivity"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
 
 
-    <TextView android:id="@+id/tag"
-              android:layout_width="match_parent"
-              android:layout_height="50dp"
-              android:layout_marginTop="5dp"
-              android:background="@color/colorAccent"
-              android:text="tag"
-              android:textColor="#ffffff"
-              android:gravity="center"/>
-
-    <TextView android:id="@+id/vr"
-              android:layout_width="match_parent"
-              android:layout_height="50dp"
-              android:layout_marginTop="5dp"
-              android:background="@color/colorAccent"
-              android:text="vr"
-              android:textColor="#ffffff"
-              android:gravity="center"/>
-
-    <TextView android:id="@+id/vr_webview"
-              android:layout_width="match_parent"
-              android:layout_height="50dp"
-              android:layout_marginTop="5dp"
-              android:background="@color/colorAccent"
-              android:text="vrWebView"
-              android:textColor="#ffffff"
-              android:gravity="center"/>
+        <TextView android:id="@+id/imgselect"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="图片选择"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
 
 
-    <TextView android:id="@+id/time"
-              android:layout_width="match_parent"
-              android:layout_height="50dp"
-              android:layout_marginTop="5dp"
-              android:background="@color/colorAccent"
-              android:text="time"
-              android:textColor="#ffffff"
-              android:gravity="center"/>
+        <TextView android:id="@+id/tag"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="tag"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/vr"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="vr"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/vr_webview"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="vrWebView"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
 
 
-    <TextView android:id="@+id/outticket"
-              android:layout_width="match_parent"
-              android:layout_height="50dp"
-              android:layout_marginTop="5dp"
-              android:background="@color/colorAccent"
-              android:text="小票打印"
-              android:textColor="#ffffff"
-              android:gravity="center"/>
+        <TextView android:id="@+id/time"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="time"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
 
-</LinearLayout>
+
+        <TextView android:id="@+id/outticket"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="小票打印"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/drawcolor"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="Drae Color"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/drawcircle"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="Drae Circler"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/drawrect"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="Drae Rect"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/drawpoint"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="Drae Point"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
