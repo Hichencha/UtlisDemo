@@ -135,5 +135,24 @@
                   android:textColor="#ffffff"
                   android:gravity="center"/>
 
+        <TextView android:id="@+id/drawview2"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="draw view"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+        <TextView android:id="@+id/hencodeview"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="view practice"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
