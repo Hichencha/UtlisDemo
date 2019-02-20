@@ -1,8 +1,12 @@
 package com.chencha.utlisdemo;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
+
+import java.lang.reflect.Method;
 
 public class Utlis {
     public static int getScreenWidth(Context context) {
@@ -58,5 +62,59 @@ public class Utlis {
             return diff > 0 ? 1 : -1;
         }
     }
+
+    /**
+     * IMEI
+     *
+     * @return
+     */
+    @SuppressLint({"MissingPermission"})
+    public static String getIMEI() {
+        return ((TelephonyManager) App.getInstance().getSystemService(
+                Context.TELEPHONY_SERVICE)).getDeviceId();
+    }
+
+
+    /**
+     * android id
+     *
+     * @return
+     */
+    public static String getAndroidId() {
+        return android.provider.Settings.Secure.getString(
+                App.getInstance().getContentResolver(),
+                android.provider.Settings.Secure.ANDROID_ID);
+
+    }
+
+    /**
+     *  simserNUmber
+     * @return
+     */
+    @SuppressLint("MissingPermission")
+    public static String getSimSerialNumber() {
+        return ((TelephonyManager) App.getInstance().getSystemService(
+                Context.TELEPHONY_SERVICE)).getSimSerialNumber();
+    }
+
+
+    /**
+     * getSerialNumber
+     *
+     * @return result is same to getSerialNumber1()
+     */
+
+    public static String getSerialNumber() {
+        String serial = null;
+        try {
+            Class<?> c = Class.forName("android.os.SystemProperties");
+            Method get = c.getMethod("get", String.class);
+            serial = (String) get.invoke(c, "ro.serialno");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return serial;
+    }
+
 
 }
