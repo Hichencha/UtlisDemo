@@ -7,6 +7,8 @@ import android.view.View
 import com.chencha.utlisdemo.hencode.*
 import com.chencha.utlisdemo.img.ImageFlexboxActivity
 import com.chencha.utlisdemo.receipt.PrintReceiptActivity
+import com.chencha.utlisdemo.recycler.DemoKt
+import com.chencha.utlisdemo.recycler.RecyclerViewKt
 import com.chencha.utlisdemo.seekbar.ProgressBarActviity
 import com.chencha.utlisdemo.seekbar.SeekbarActivity
 import com.chencha.utlisdemo.selectimg.ImageSelectActivity
@@ -39,6 +41,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         drawpoint.setOnClickListener(this)
         drawview2.setOnClickListener(this)
         hencodeview.setOnClickListener(this)
+        RecyclerItem.setOnClickListener(this)
+        DemoItem.setOnClickListener(this)
         imgInfo.add("http://oss.rhrsh.com/manager/test/1.png")
         imgInfo.add("http://oss.rhrsh.com/manager/test/2.png")
         imgInfo.add("http://oss.rhrsh.com/manager/test/3.png")
@@ -113,6 +117,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.hencodeview -> {
                 val intent = Intent(this, PracticeViewKt::class.java)
+                startActivity(intent)
+            }
+            R.id.RecyclerItem -> {
+                val intent = Intent(this, RecyclerViewKt::class.java)
+                startActivity(intent)
+            }
+            R.id.DemoItem -> {
+                val intent = Intent(this, DemoKt::class.java)
                 startActivity(intent)
             }
 

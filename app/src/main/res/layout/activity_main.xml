@@ -153,6 +153,24 @@
                   android:textColor="#ffffff"
                   android:gravity="center"/>
 
+        <TextView android:id="@+id/RecyclerItem"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="RecyclerViewKt"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
+
+
+        <TextView android:id="@+id/DemoItem"
+                  android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:layout_marginTop="5dp"
+                  android:background="@color/colorAccent"
+                  android:text="DemoItem"
+                  android:textColor="#ffffff"
+                  android:gravity="center"/>
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

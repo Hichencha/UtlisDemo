@@ -42,6 +42,8 @@
         <activity android:name=".hencode.DrawPointView"/>
         <activity android:name=".hencode.DrawViewActivity"/>
         <activity android:name=".hencode.PracticeViewKt"/>
+        <activity android:name=".recycler.RecyclerViewKt"/>
+        <activity android:name=".recycler.DemoKt"/>
 
         <provider
                 android:name="android.support.v4.content.FileProvider"

@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 
 import java.lang.reflect.Method;
@@ -115,6 +117,8 @@ public class Utlis {
         }
         return serial;
     }
+
+
 
 
 }
